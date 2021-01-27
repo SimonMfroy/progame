@@ -14,6 +14,7 @@ body {
 a{
 	text-transform: none;
 	color: red;
+	text-decoration : none;
 }
 
 p {
@@ -24,4 +25,31 @@ p {
 
 .cardEachGame {
   background-color: #191919;
+}
+
+.informationsRow{
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.informationsRow>div{
+
+	padding-top: 2em;
+    flex: 0 0 33.3333333333%;
+	max-width: 33%;
+}
+
+.rating{
+	color:red;
+	text-align: right;
+}
+
+.buttonWebsite{
+	background-color:red;
+	padding: 5px;
+	color:white;
+}
+
+.buttonWebsite a{
+	color:white;
 }
